@@ -27,6 +27,16 @@
   </ItemGroup>
 ```
 
+- **AppSettings.json** is needed to push connection strings to the output directory during build, ensuring the WebJobs SDK knows the Storage Account Connection Details required for the WebJobs SDK to run completed.
+
+``` xml
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+```
+
 ``` xml
 <Project Sdk="Microsoft.NET.Sdk">
 
