@@ -6,7 +6,10 @@
 - _Note: WebJobs SDK Version 1 is .NET Framework_
 
 ### Packages:
-- Notes: ```xml <ImplicitUsings>disable</ImplicitUsings>``` is for ensuring direct correlations to the to **namespaces** and **Modules**/**NuGet Packages**
+- Notes: The code below is for ensuring direct correlations to the to **namespaces** and **Modules**/**NuGet Packages**
+```xml
+<ImplicitUsings>disable</ImplicitUsings>
+``` 
 
 ``` xml
 <Project Sdk="Microsoft.NET.Sdk">
