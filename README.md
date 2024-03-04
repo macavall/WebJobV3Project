@@ -7,11 +7,21 @@
 
 ### Packages:
 - Notes: The code below is for ensuring direct correlations to the to **namespaces** and **Modules**/**NuGet Packages**
+
 ```xml
 <ImplicitUsings>disable</ImplicitUsings>
 ``` 
+- **PackageReference** requires the below packages
+
 
 ``` xml
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="4.0.1" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+  </ItemGroup>
+- 
+
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
