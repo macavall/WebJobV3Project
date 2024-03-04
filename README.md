@@ -13,10 +13,11 @@
 ``` 
 - **PackageReference** requires the below packages
 
-| Microsoft.Azure.WebJobs.Extensions |  |
+| Package Name | Package Version Range |
 |--|--|
-| Microsoft.Azure.WebJobs.Extensions.Storage |  |
-| Microsoft.Extensions.Logging.Console |  |
+| Microsoft.Azure.WebJobs.Extensions | 4.x.x |
+| Microsoft.Azure.WebJobs.Extensions.Storage | 5.x.x |
+| Microsoft.Extensions.Logging.Console | 6.x.x |
 
 ``` xml
   <ItemGroup>
