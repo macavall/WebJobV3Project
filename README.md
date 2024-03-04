@@ -37,6 +37,8 @@
   </ItemGroup>
 ```
 
+## Full .csproj contents
+
 ``` xml
 <Project Sdk="Microsoft.NET.Sdk">
 
