@@ -13,6 +13,10 @@
 ``` 
 - **PackageReference** requires the below packages
 
+| Microsoft.Azure.WebJobs.Extensions |  |
+|--|--|
+| Microsoft.Azure.WebJobs.Extensions.Storage |  |
+| Microsoft.Extensions.Logging.Console |  |
 
 ``` xml
   <ItemGroup>
@@ -20,12 +24,6 @@
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.2.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
   </ItemGroup>
-
-- 
-| Microsoft.Azure.WebJobs.Extensions |  |
-|--|--|
-| Microsoft.Azure.WebJobs.Extensions.Storage |  |
-| Microsoft.Extensions.Logging.Console |  |
 
 <Project Sdk="Microsoft.NET.Sdk">
 
