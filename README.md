@@ -27,6 +27,7 @@
   </ItemGroup>
 ```
 
+``` xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
